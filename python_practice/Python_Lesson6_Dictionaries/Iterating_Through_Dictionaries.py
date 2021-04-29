@@ -22,9 +22,3 @@ a = {
 print('size' in a)
 print('length' in a)
 
-cars = dict(
-    brand = 'Ford',
-)
-print(cars)
-cars['model'] = 'Mustang'
-print(cars)
