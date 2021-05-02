@@ -1,7 +1,6 @@
 ## Simply iterate through the string and form a key in dictionary of newly occurred element or if element is already occurred, increase its value by 1.
 
 
-
 ## Define function 'data' that takes 'sentence' as arg
 def data(sentence):
 ## initialize an empty set to place output in    
