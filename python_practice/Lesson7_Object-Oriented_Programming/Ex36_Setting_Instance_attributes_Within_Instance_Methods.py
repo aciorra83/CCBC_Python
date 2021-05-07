@@ -26,5 +26,7 @@ class Knowledge_check:
 # Creating talk() method to print desired output
     def talk(self):
         print(f'Hello! My name is {self.name}. I am in {self.branch} branch.')
+# creating a variable to implement the talk() method
 xyz = Knowledge_check(name, branch)
+# Calling the talk() method with the new variable that contains the class and args (name, branch)
 xyz.talk()
