@@ -22,19 +22,19 @@ class Cat:
         f' has a lifespans of {self.life_in_years} years'
         f' can run at a maximum speed of {self.speed_in_kph}kph.')
 
-# cat = Cat(4, 18, 48)
-# print(cat.vocalize())
-# print(cat.print_facts())
+cat = Cat(4, 18, 48)
+print(cat.vocalize())
+print(cat.print_facts())
 
 # Create the subclasses Leopard, Cheetah, and Lion, which will inherit from the Cat class:
-# class Cheetah(Cat):
-#     pass
+class Cheetah(Cat):
+    pass
 
-# class Lion(Cat):
-#     pass
+class Lion(Cat):
+    pass
 
-# class Leopard(Cat):
-#     pass
+class Leopard(Cat):
+    pass
 # instantiate the new cheetah, lion and leopard classes
 cheetah = Cheetah(72, 12, 120)
 lion = Lion(190, 14, 80)
@@ -60,8 +60,8 @@ print(lion.vocalize())
 print(leopard.vocalize())
 
 # if we call vocalize instances they all have the same output and that's not accurate
-# print(cheetah.vocalize())
-# print(lion.vocalize())
-# print(leopard.vocalize())
+print(cheetah.vocalize())
+print(lion.vocalize())
+print(leopard.vocalize())
 
 

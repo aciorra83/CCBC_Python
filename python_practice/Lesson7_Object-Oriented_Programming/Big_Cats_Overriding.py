@@ -13,7 +13,7 @@ class Cat:
               f" has a lifespan of {self.lifespan_in_years} years and "
               f"can run at a maximum speed of {self.speed_in_kph}kph.")
 
-
+# overriding with specific methods for subclasses
 class Cheetah(Cat):
     def vocalize(self):
         print("Chirrup")

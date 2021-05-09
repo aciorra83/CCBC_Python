@@ -64,3 +64,42 @@ Music.update_firmware(2.0)
 print("Updated player firmware version to", player.firmware_version)
 player.play()
 print("Currently playing", player.current_track)
+
+# Overriding Methods: Write the Python code to create the Child class that inherits from the Parent class.
+class Parent():
+    def __init__(self):
+        self.value = "Inside the parent class"
+    def show(self):
+        print(self.value)
+
+class Child(Parent):
+    def __init__(self):
+        self.value = "Inside the child class"
+    def show(self):
+        print(self.value)
+obj1 = Parent()
+obj2 = Child()
+print(obj1.show())
+print(obj2.show())
+
+# Practicing Multiple Inheritance
+# Write the Python code to create a class by performing the following tasks:
+# Create the MobilePhone class that will be initialized with the memory attribute.
+# Create the Call class that has the talk() method and print Say Hello!.
+# Create the Phone class that inherits from both the MobilePhone and Call classes.
+# Initialize an instance of the Phone class and print 200KB. Calling the talk() method on the instance.
+# Print the memory attribute.
+class MobilePhone:
+    def __init__(self, memory):
+        self.memory = memory
+
+class Call:
+    def talk(self):
+        print('Say Hello!')
+
+class Phone(MobilePhone, Call):
+    pass
+
+phone = Phone('200KB')
+phone.talk()
+print(phone.memory)

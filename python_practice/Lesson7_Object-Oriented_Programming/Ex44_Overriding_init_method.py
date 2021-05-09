@@ -30,4 +30,3 @@ print(cheetah.print_facts())
 # our new attribute spotted is also added
 print(cheetah.spotted_coat)
 
-# On Commonly overridden methods
