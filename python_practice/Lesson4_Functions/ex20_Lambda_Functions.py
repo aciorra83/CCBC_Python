@@ -12,5 +12,3 @@ print(squared)
 
 answer = lambda number, power: number**power
 print(answer(2,4))
-
-
